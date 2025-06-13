@@ -1,0 +1,60 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button,
+input,
+select,
+textarea{
+    font-family: "Heebo", serif;
+}
+
+body{
+    background-color: #f7f7f7f7;
+}
+ 
+header #nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7777;
+  padding: 0.2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+}
+
+#nav .nav-brach{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+#nav #nav-list{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+#nav #nav-list .nav-item a{
+
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+#nav #nav-list .nav-item a:hover{
+    color: #777;
+    transition: color 0.3s;
+}
+
+/*section - banner*/
+
+main{
+    margin-top: 6rem;
+}
